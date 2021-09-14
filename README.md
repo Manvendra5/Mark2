@@ -1,7 +1,5 @@
 # About The Project
 
----
-
 A CLI app made with nodeJS. Play this marvel fan quiz and find out how well you know your favorite MCU character.
 
 ## What's a CLI?
@@ -18,8 +16,6 @@ Think of it as texting with a program instead of you know the usual clicking of 
 
 # Getting Started
 
----
-
 [This](https://replit.com/@manvendra9/Marvel-quiz-v1?embed=1&output=1) is the link for quiz. Here are the steps for you to get started:
 
 1. Click on the play button on right bottom corner of your screen. This will start the CLI.
@@ -29,13 +25,10 @@ Think of it as texting with a program instead of you know the usual clicking of 
 
 # Contact
 
----
-
 Manvendra Singh Bais - [https://twitter.com/_Manvendra_/](https://twitter.com/_Manvendra_/)
+
 Project link: [https://github.com/Manvendra5/Mark2](https://github.com/Manvendra5/Mark2)
 
 # Acknowledgements
-
----
 
 -[Repl](https://replit.com/~)
