@@ -110,6 +110,7 @@ function play(iChooseYou) {
         }
     }
     console.log("------------------------------------------------------");
+    console.log(`Your final score is ${score}`);
     console.log(`
   Thanks for playing. 
   Refresh the page to play again.
@@ -117,6 +118,8 @@ function play(iChooseYou) {
 };
 
 var heroes = ["spiderman", "Iron Man", "Captain America"];
+var userName = readlineSync.question("What's your name? ");
+console.log("Welcome " + userName);
 var heroIndex = readlineSync.keyInSelect(heroes, "Choose your favourite MCU character from the given options.", { cancel: "Exit quiz" });
 if (heroIndex === -1) {
     console.log(`
