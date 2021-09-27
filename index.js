@@ -15,7 +15,16 @@ var spiderman = [
         question: "Which Spiderman movie won the academy award( category does not matter)? ",
         options: ["Spiderman", "Spiderman II", "Spiderman III", "NOTA"],
         answer: "Spiderman II",
-    }
+    },
+    {
+        question: "Who was responsible for reminding Peter 'with great power comes great responsibility?'",
+        options: ["Harry Osborn", "Ben Parker", "Gwen Stacy", "Flash Thompson"],
+        answer: "Ben Parker",
+    }, {
+        question: "What is the real name of the villain known as Doctor Octopus?",
+        options: ["James Otto", "Alfred Molina", "Tom Kenny", "Otto Octavius"],
+        answer: "Otto Octavius",
+    },
 ];
 
 var ironman = [
@@ -33,7 +42,16 @@ var ironman = [
         question: "When does Robert Downey Jr. First Appear As Tony Stark?",
         options: ["Iron Man", "The Avengers", "The Incredible Hulk", "Captain America"],
         answer: "Iron Man",
-    }
+    },
+    {
+        question: "What does Stark Drink In 'Iron Man 2'?",
+        options: ["Chlorophyll", "Palladium Juice", "Green Luck", "Kale Smoothie"],
+        answer: "Iron Man",
+    }, {
+        question: "What is Virginia Potts nickname?",
+        options: ["Lucky", "Pepper", "Pans", "Nonstick"],
+        answer: "Pepper",
+    },
 ];
 var captainAmerica = [
     {
@@ -50,7 +68,16 @@ var captainAmerica = [
         question: "What was Captain America's elite unit known as?",
         options: ["Howling Commandos", "The Patriots", "Star Spangled Men", "Star Spangled Soldiers"],
         answer: "Howling Commandos",
-    }
+    },
+    {
+        question: "What is Captain America's shield made of?",
+        options: ["Adamantium", "Carbonadium", "Epidurium", "Vibranium"],
+        answer: "Vibranium",
+    }, {
+        question: "What year was Captain America unfrozen?",
+        options: ["2009", "2010", "2011", "2012"],
+        answer: "2011",
+    },
 ];
 
 var mcuCharacters = {
@@ -79,10 +106,7 @@ function play(iChooseYou) {
         }
         else {
             console.log("You are wrong!");
-            if (score) {
-                score = score - 1;
-                console.log("Your score: ", score);
-            }
+            console.log("Your score: ", score);
         }
     }
     console.log("------------------------------------------------------");
